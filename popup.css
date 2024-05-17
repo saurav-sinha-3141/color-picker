@@ -1,0 +1,33 @@
+body {
+  background-color: lightgray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 300px;
+  text-align: center;
+}
+
+.pick-color-btn {
+  background-color: yellowgreen;
+  border: none;
+  border-radius: 2px;
+  width: 200px;
+  margin: 3px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.color-grid {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+.selected-color {
+  display: flex;
+  align-items: center;
+  margin: 3px;
+}
+
+.color-value {
+  font-weight: bold;
+  margin: 2px;
+}
